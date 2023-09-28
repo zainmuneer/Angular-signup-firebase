@@ -22,6 +22,7 @@ import { ToastrModule } from 'ngx-toastr';
 // import { environment } from '../environments/environment';
 import { provideAuth,getAuth } from '@angular/fire/auth';
 import { HomeComponent } from './components/home/home.component';
+import { ProfileComponent } from './components/profile/profile.component';
 // import { HotToastModule } from '@ngneat/hot-toast';
 // import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 
@@ -30,7 +31,8 @@ import { HomeComponent } from './components/home/home.component';
     AppComponent,
     LoginComponent,
     SignUpComponent,
-    HomeComponent
+    HomeComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
