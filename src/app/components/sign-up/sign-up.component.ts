@@ -87,9 +87,9 @@ export class SignUpComponent {
     // .subscribe(() => {
     //   this.router.navigate(['/home']);
     // });
-    this.authService.login(email, password).subscribe(
+    this.authService.signUp(email, password).subscribe(
       () => {
-        this.toastr.success('Logged in successfully');
+        this.toastr.success('Congrats! You have successfully signed up ');
         this.router.navigate(['/home']);
       },
       (error) => {
